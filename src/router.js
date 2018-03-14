@@ -16,11 +16,13 @@ function RouterConfig({ history }) {
     <Router history={history}>
       <Switch>
         <Layout>
-          <Header>
+          <Header className={styles.header}>
             <Logo/>
             <Contacts/>
-            <Nav/>
           </Header>
+          <Layout>
+            <Nav/>
+          </Layout>
           <Layout>
             <Sider>
               <SubNav/>
