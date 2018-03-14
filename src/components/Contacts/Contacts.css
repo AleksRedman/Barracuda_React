@@ -1,0 +1,21 @@
+.contacts{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  min-width: 320px;
+}
+
+.contacts__tel{
+  color: #f6303e;
+  font-size: 18px;
+}
+
+.contacts__socials_wrap{
+  margin-right: 50px;
+}
+
+.contacts__socials{
+  color: #f6303e;
+  font-size: 18px;
+  padding-left: 10px;
+}
