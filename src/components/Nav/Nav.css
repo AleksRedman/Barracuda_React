@@ -1,0 +1,23 @@
+.nav{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+.nav__item{
+  transform: skewX(-20deg);
+  border: 2px solid #f6303e;
+  background-color: none;
+  padding: 0 0px;
+}
+
+.nav__item:hover{
+}
+
+.nav__link{
+  transform: skewX(+20deg);
+  padding: 0 20px;
+  color: #f6303e;
+  font-size: 20px;
+}
