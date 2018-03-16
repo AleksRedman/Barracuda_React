@@ -2,20 +2,35 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  flex-wrap: wrap;
   min-width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-content: center;
+  align-items: center;
+  line-height: 1;
 }
 
 .contacts__tel{
+  padding: 0;
+  margin: 0;
   color: #f6303e;
   font-size: 18px;
 }
 
 .contacts__socials_wrap{
-  margin-right: 50px;
+  margin-left: 30px;
 }
 
 .contacts__socials{
+  margin-left: 10px;
+}
+
+.contacts__icon{
   color: #f6303e;
-  font-size: 18px;
-  padding-left: 10px;
+  font-size: 25px;
+}
+
+.contacts__icon:hover{
+  color: #04a7d6;
 }
