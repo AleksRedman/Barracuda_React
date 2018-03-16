@@ -11,9 +11,22 @@ const Contacts = () => {
         +38 063 154 35 56
       </a>
       <div className={styles.contacts__socials_wrap}>
-        <Icon type="facebook" className={styles.contacts__socials}/>
-        <Icon type="google" className={styles.contacts__socials}/>
-        <Icon type="amazon" className={styles.contacts__socials}/>
+        <a
+          href="https://www.facebook.com/" target="_blank"
+          rel="noopener noreferrer"
+          className={styles.contacts__socials}>
+          <Icon type="facebook" className={styles.contacts__icon}/>
+        </a>
+        <a href="https://plus.google.com/"
+          target="_blank" rel="noopener noreferrer"
+          className={styles.contacts__socials}>
+          <Icon type="google-plus" className={styles.contacts__icon}/>
+        </a>
+        <a href="https://www.amazon.com/"
+          target="_blank" rel="noopener noreferrer" 
+          className={styles.contacts__socials}>
+          <Icon type="amazon" className={styles.contacts__icon}/>
+        </a>
       </div>
     </div>
   );
