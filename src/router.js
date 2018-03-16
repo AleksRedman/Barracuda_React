@@ -22,22 +22,21 @@ function RouterConfig({ history }) {
             <Logo/>
             <Contacts/>
           </Header>
-          <Layout>
-            <Nav/>
-          </Layout>
-          <Layout>
+          <Nav/>
+          <Layout className={styles.main}>
             <Sider>
               <SubNav/>
             </Sider>
-            <Content>
+            <Content className={styles.content}>
               <Route path="/" exact component={Home} />
               <Route path="/Goods" exact component={Goods} />
               <Route path="/Feedback" exact component={Feedback} />
               <Route path="/About_us" exact component={About_us} />
             </Content>
           </Layout>
-          <Footer>
+          <Footer className={styles.footer}>
             <Copyrights/>
+            <Contacts/>
           </Footer>
         </Layout>
       </Switch>
