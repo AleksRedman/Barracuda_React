@@ -4,15 +4,40 @@ html, body, :global(#root) {
 }
 
 .wrapper{
-  
+  display: flex;
+  justify-content: flex-start;
+  min-height: 100vh;
 }
 
 .header{
-  min-height: 150px;
+  height: auto!important;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  padding: 20px!important;
+  padding: 15px!important;
+}
+
+.menu{
+  height: auto;
+}
+
+.main{
+  flex-grow: 1;
+}
+
+.content{
+  padding: 20px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items:center;
+  align-content: center;
+  background: #000c17!important;
+  padding: 0;
 }
