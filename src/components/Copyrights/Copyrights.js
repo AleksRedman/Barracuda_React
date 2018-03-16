@@ -5,8 +5,8 @@ import styles from './Copyrights.css';
 
 const Copyrights = () => {
   return (
-    <div>
-      <p>Check</p>
+    <div className={styles.copyrights}>
+      <p className={styles.copyrights__text}>© 2017 Barracuda. All rights reserved</p>
     </div>
   );
 };
