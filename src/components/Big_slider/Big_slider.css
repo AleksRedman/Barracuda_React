@@ -1,0 +1,35 @@
+.slider__item{
+  background-color: #c5c5c5;
+  background-image: url(../../assets/slider_item_bg.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px !important;
+}
+
+.slider__item_card{
+  width: 400px;
+  border: 1px solid  #f6303e;
+  padding: 15px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.slider__title{
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.slider__descr{
+
+}
+
+.slider__button{
+
+}
+
+.slider__img{
+  display: block;
+  width: 250px;
+  height: 200px;
+}
